@@ -215,29 +215,45 @@ public class MainSet {
 /*      Array list Create                       Linked list Create
         Array list creation time = 10           Linked list creation time = 30
         Current size = 100000                   Current size = 100000
+        Result: Array list is faster
 
         Array list Insert                       Linked list Insert
         Array list Insert Start time = 31       Linked list Insert Start time = 1
         Current size = 101000                   Current size = 101000
+        Result: Linked list is faster
+
         Array list Insert Middle time = 9      Linked list Insert Middle time = 133
         Current size = 102000                   Current size = 102000
+        Result: Array list is faster
+
         Array list Insert End time = 0          Linked list Insert End time = 8
         Current size = 103000                   Current size = 103000
+        Result: Array list is faster
 
         Array list Update                       Linked list Update
         Array list Update Start time = 0        Linked list Update Start time = 0
         Current size = 103000                   Current size = 103000
+        Result: Same speed
+
         Array list Update Middle time = 0       Linked list Update Middle time = 100
         Current size = 103000                   Current size = 103000
+        Result: Array list is faster
+
         Array list Update End time = 1          Linked list Update End time = 6
         Current size = 103000                   Current size = 103000
+        Result: Array list is faster
 
         Array list Delete                       Linked list Delete
         Array list Delete Start time = 27       Linked list Delete Start time = 0
         Current size = 102000                   Current size = 102000
+        Result: Linked list is faster
+
         Array list Delete Middle time = 8      Linked list Delete Middle time = 83
         Current size = 101000                   Current size = 101000
+        Result: Array list is faster
+
         Array list Delete End time = 0          Linked list Delete End time = 1
         Current size = 100000                   Current size = 100000
+        Result: Same speed
 */
 
