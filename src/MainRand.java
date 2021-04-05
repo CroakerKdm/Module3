@@ -233,6 +233,7 @@ public class MainRand {
         Current size = 100000                   Current size = 100000
         Result: Array list is faster
 
+
         Array list Insert                       Linked list Insert
         Array list Insert Start time = 37       Linked list Insert Start time = 0
         Current size = 101000                   Current size = 101000
@@ -254,11 +255,12 @@ public class MainRand {
 
         Array list Update Middle time = 0       Linked list Update Middle time = 96
         Current size = 103000                   Current size = 103000
-        Result: Linked list is faster
+        Result: Array list is faster
 
         Array list Update End time = 0          Linked list Update End time = 5
         Current size = 103000                   Current size = 103000
-        Result: Linked list is faster
+        Result: Array list is faster
+
 
         Array list Delete                       Linked list Delete
         Array list Delete Start time = 40       Linked list Delete Start time = 0
@@ -272,4 +274,8 @@ public class MainRand {
         Array list Delete End time = 1          Linked list Delete End time = 0
         Current size = 100000                   Current size = 100000
         Result: Same speed
+
+        Array list is faster when it comes to processing data in the middle of the list.
+        Linked list is faster in the beginning of the list.
+        Speed is roughly the same in the end of the list.
 */

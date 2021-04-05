@@ -217,6 +217,7 @@ public class MainSet {
         Current size = 100000                   Current size = 100000
         Result: Array list is faster
 
+
         Array list Insert                       Linked list Insert
         Array list Insert Start time = 31       Linked list Insert Start time = 1
         Current size = 101000                   Current size = 101000
@@ -229,6 +230,7 @@ public class MainSet {
         Array list Insert End time = 0          Linked list Insert End time = 8
         Current size = 103000                   Current size = 103000
         Result: Array list is faster
+
 
         Array list Update                       Linked list Update
         Array list Update Start time = 0        Linked list Update Start time = 0
@@ -243,6 +245,7 @@ public class MainSet {
         Current size = 103000                   Current size = 103000
         Result: Array list is faster
 
+
         Array list Delete                       Linked list Delete
         Array list Delete Start time = 27       Linked list Delete Start time = 0
         Current size = 102000                   Current size = 102000
@@ -255,5 +258,9 @@ public class MainSet {
         Array list Delete End time = 0          Linked list Delete End time = 1
         Current size = 100000                   Current size = 100000
         Result: Same speed
+
+        Array list is faster when it comes to processing data in the middle of the list.
+        Linked list is faster in the beginning of the list.
+        Speed is roughly the same in the end of the list.
 */
 
